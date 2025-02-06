@@ -1,0 +1,52 @@
+name: "🐞 Zgłoszenie błędu"
+description: "Zgłoś błąd lub nieoczekiwane zachowanie"
+title: "[BUG] - Opis błędu"
+labels: ["bug", "do sprawdzenia"]
+body:
+  - type: markdown
+    attributes:
+      value: "### 🚨 Upewnij się, że problem nie został już zgłoszony!"
+
+  - type: textarea
+    id: opis
+    attributes:
+      label: "📋 Opis problemu"
+      description: "Opisz błąd jak najdokładniej, co się dzieje i czego oczekujesz."
+      placeholder: "Przykład: Kliknięcie przycisku 'Zapisz' powoduje crash aplikacji."
+    validations:
+      required: true
+
+  - type: textarea
+    id: kroki
+    attributes:
+      label: "🔍 Kroki do odtworzenia"
+      description: "Jak można odtworzyć błąd?"
+      placeholder: "1. Otwórz stronę...\n2. Kliknij w...\n3. Zobaczysz błąd..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: oczekiwany_rezultat
+    attributes:
+      label: "✅ Oczekiwany rezultat"
+      description: "Jak powinno działać?"
+      placeholder: "Po kliknięciu w 'Zapisz' powinien pojawić się komunikat o sukcesie."
+
+  - type: textarea
+    id: rzeczywisty_rezultat
+    attributes:
+      label: "❌ Rzeczywisty rezultat"
+      description: "Co się dzieje w rzeczywistości?"
+      placeholder: "Po kliknięciu aplikacja crashuje z błędem 500."
+
+  - type: input
+    id: wersja
+    attributes:
+      label: "📦 Wersja aplikacji"
+      placeholder: "np. 1.2.3"
+
+  - type: textarea
+    id: dodatkowe_info
+    attributes:
+      label: "📎 Dodatkowe informacje"
+      description: "Czy są jakieś dodatkowe informacje, logi lub zrzuty ekranu?"

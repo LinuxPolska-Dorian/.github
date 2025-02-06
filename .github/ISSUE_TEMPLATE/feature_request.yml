@@ -1,0 +1,40 @@
+name: "🚀 Propozycja nowej funkcjonalności"
+description: "Zaproponuj nową funkcję lub usprawnienie"
+title: "[FEATURE] - Opis funkcjonalności"
+labels: ["enhancement", "propozycja"]
+body:
+  - type: textarea
+    id: opis
+    attributes:
+      label: "📝 Opis funkcjonalności"
+      description: "Opisz, co chcesz dodać i dlaczego."
+      placeholder: "Przykład: Dodanie trybu ciemnego dla lepszej czytelności w nocy."
+    validations:
+      required: true
+
+  - type: textarea
+    id: uzasadnienie
+    attributes:
+      label: "🤔 Dlaczego to jest potrzebne?"
+      description: "Jakie problemy rozwiąże ta funkcja?"
+      placeholder: "Użytkownicy zgłaszają, że jasny motyw męczy oczy w nocy."
+
+  - type: textarea
+    id: rozwiazanie
+    attributes:
+      label: "💡 Możliwe rozwiązanie"
+      description: "Jak według Ciebie można to zaimplementować?"
+      placeholder: "Dodać przełącznik trybu ciemnego w ustawieniach."
+
+  - type: textarea
+    id: alternatywy
+    attributes:
+      label: "🔄 Alternatywne rozwiązania"
+      description: "Czy są inne sposoby rozwiązania tego problemu?"
+      placeholder: "Można użyć CSS prefers-color-scheme, by dostosować motyw automatycznie."
+
+  - type: textarea
+    id: dodatkowe_info
+    attributes:
+      label: "📎 Dodatkowe informacje"
+      description: "Czy masz jakieś zrzuty ekranu, logi lub inne istotne informacje?"
