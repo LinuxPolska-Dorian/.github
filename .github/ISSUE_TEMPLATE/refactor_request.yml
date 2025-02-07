@@ -1,0 +1,26 @@
+name: "🔧 Refaktoryzacja"
+description: "Zgłoś potrzebę poprawy istniejącego kodu"
+title: "[REFACTOR] - <USTAW_TYTUŁ>"
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: powod
+    attributes:
+      label: "🛠️ Powód refaktoryzacji"
+      description: "Dlaczego warto zmienić ten kod?"
+      placeholder: "Kod jest trudny do utrzymania, zbyt duży, powtarza się..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rozwiazanie
+    attributes:
+      label: "💡 Proponowane rozwiązanie"
+      description: "Jak można poprawić kod?"
+      placeholder: "Podział na mniejsze klasy, lepsza struktura katalogów..."
+
+  - type: textarea
+    id: dodatkowe_info
+    attributes:
+      label: "📎 Dodatkowe informacje"
+      description: "Linki do kodu, diagramy, inne istotne szczegóły?"
