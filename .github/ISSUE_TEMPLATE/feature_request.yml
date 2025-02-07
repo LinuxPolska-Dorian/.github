@@ -1,6 +1,6 @@
 name: "🚀 Propozycja nowej funkcjonalności"
 description: "Zaproponuj nową funkcję lub usprawnienie"
-title: "[FEAT] - Opis funkcjonalności"
+title: "[FEAT] - <USTAW_TYTUŁ>"
 labels: ["feature"]
 body:
   - type: textarea

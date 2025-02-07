@@ -1,6 +1,6 @@
 name: "🐞 Zgłoszenie błędu"
 description: "Zgłoś błąd lub nieoczekiwane zachowanie"
-title: "[BUG] - Opis błędu"
+title: "[BUG] - <USTAW_TYTUŁ>"
 labels: ["bug"]
 body:
   - type: markdown
